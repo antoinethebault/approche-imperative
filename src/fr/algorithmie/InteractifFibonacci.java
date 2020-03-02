@@ -23,7 +23,7 @@ public class InteractifFibonacci {
 			Nmoins1=N;
 		}
 		System.out.println("Le nombre de rang "+rang+" correspond a "+N);
-
+		saisie.close();
 	}
 
 }
