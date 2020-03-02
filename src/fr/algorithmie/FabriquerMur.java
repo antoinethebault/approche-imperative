@@ -18,18 +18,23 @@ public class FabriquerMur {
 	}
 
 	static boolean fabriquerMur(int nbSmall, int nbBig, int longueur) {
+		//declaration des varialbes
 		boolean resultat = false; 
 		int longueurAtteinte=0;
 		
+		//construction du mur avec  des briques de taille 5
 		while (longueurAtteinte<=longueur-5 && nbBig>0) {
 			longueurAtteinte+=5;
 			nbBig--;
 		}
 		
+		//construction du mur avec des briques de taille 1
 		while (longueurAtteinte<=longueur-1 && nbSmall>0) {
 			longueurAtteinte+=1;
 			nbSmall--;
 		}
+		
+		//on verifie si la longueur atteinte est correcte
 		if (longueurAtteinte==longueur)
 			resultat=true;
 		
