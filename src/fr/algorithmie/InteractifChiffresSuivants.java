@@ -15,6 +15,8 @@ public class InteractifChiffresSuivants {
 		//affichage des 10 suivants
 		for (int i=1; i<=10; i++)
 			System.out.print((nb+i)+", ");
+		
+		saisie.close();
 
 	}
 
