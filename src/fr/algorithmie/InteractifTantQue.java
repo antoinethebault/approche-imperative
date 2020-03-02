@@ -8,7 +8,6 @@ public class InteractifTantQue {
 		// declaration des variables
 		Scanner saisie = new Scanner(System.in);
 		int nb;
-		int somme=0;
 
 		// saisie d'un nombre
 		do {
