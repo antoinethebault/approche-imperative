@@ -18,6 +18,7 @@ public class AffichageInverse {
 			System.out.print(array[i]+" ");
 		}
 		
+		@SuppressWarnings("unused")
 		int[] arrayCopy = array;
 	}
 	
