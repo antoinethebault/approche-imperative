@@ -26,7 +26,7 @@ public class InteractifPlusMoins {
 			essais++;
 		}
 		System.out.println("Bravo, vous avez trouvé en "+essais+" coups");
-
+		saisie.close();
 	}
 
 }
