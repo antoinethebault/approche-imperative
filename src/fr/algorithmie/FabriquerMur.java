@@ -19,7 +19,20 @@ public class FabriquerMur {
 
 	static boolean fabriquerMur(int nbSmall, int nbBig, int longueur) {
 		boolean resultat = false; 
-		// TODO: implémenter l'algo 
+		int longueurAtteinte=0;
+		
+		while (longueurAtteinte<=longueur-5 && nbBig>0) {
+			longueurAtteinte+=5;
+			nbBig--;
+		}
+		
+		while (longueurAtteinte<=longueur-1 && nbSmall>0) {
+			longueurAtteinte+=1;
+			nbSmall--;
+		}
+		if (longueurAtteinte==longueur)
+			resultat=true;
+		
 		return resultat;
 	}
 
